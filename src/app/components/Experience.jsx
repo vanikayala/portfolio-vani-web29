@@ -21,7 +21,7 @@ const Experience = () => {
           <div className="relative md:pl-10 before:w-3 before:h-3 before:bg-gradient-to-r before:from-orange-300 before:to-orange-700 before:rounded-full before:-left-[4px] before:absolute">
            <h2 className="absolute -left-12">2020</h2>
             
-            <p className="ml-3 py-4 text-orange-300 font-semibold">ROGERS</p><p className="ml-4 my-0"> Today's Shopping Choice (also known as TSC) is a Canadian English language home shopping television channel owned by Rogers Media. The channel showcases various products which viewers can purchase either by telephone or internet.  
+            <p className="ml-3 py-4 text-orange-300 font-semibold">ROGERS</p><p className="ml-4 my-0"> Todays Shopping Choice (also known as TSC) is a Canadian English language home shopping television channel owned by Rogers Media. The channel showcases various products which viewers can purchase either by telephone or internet.  
            </p>
            <div className="ml-4 text-[#ADB7BE] py-4">Environment: ReactJS, JavaScript, HTML5, ES6 features, Rest API’, SCSS, MongoDB, Material UI, Azure, Jest, Enzymes, AJAX, JSON, Express.js, Node.js, Responsive Web Design (RWD), NPM, jQuery, GIT, GitHub, Agile.
            </div>

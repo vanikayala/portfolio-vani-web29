@@ -36,7 +36,7 @@ const Herosection = () => {
      <p className="text-[#ADB7BE] py-4 text-sm md:text-xl">
       
       
-      I'm a web designer & front-end developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+      I am a web designer & front-end developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
      
      </p>
      

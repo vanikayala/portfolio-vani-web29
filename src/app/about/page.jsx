@@ -51,7 +51,7 @@ const TAB_DATA= [
     )
   },
 ]
-const about = () => {
+const About = () => {
    const [tab,setTab]=useState("education");
     
    const [isPending, startTransition]= useTransition();
@@ -64,7 +64,7 @@ const handleTabChange =(id)=>{
   return (
   <>  <section className ="mt-16 py-9 mx-8 mb-9 grid grid-cols-1 md:grid-cols-12">
       <div className='col-span-5 place-self-center md:mt-7 mt-0 lg:mt-7'>
-       <h2 className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'>About <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
+       <h2 className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'>A<span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
         Me</span>
        </h2>
       
@@ -142,4 +142,4 @@ const handleTabChange =(id)=>{
     </>)
 }
 
-export default about
+export default About

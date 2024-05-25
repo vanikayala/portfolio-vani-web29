@@ -44,7 +44,7 @@ const Contact = () =>{
     
     <div className=' col-span-6'>
     <h2 className='text-white text-2xl text-center pb-4 mb-4  md:text-4xl font-extrabold'>
-     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>let's connect
+     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>let Us connect
      </span>
      </h2>
      <p className='md:mx-9 text-[#ADB7BE]'>

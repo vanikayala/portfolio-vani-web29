@@ -10,7 +10,7 @@ const links = [
   { name: 'Parttime', href: '#' },
 ]
 
-const contact = () =>{ 
+const Contact = () =>{ 
 
   const form =useRef();
   const [user, setUser] = useState({
@@ -52,7 +52,7 @@ const contact = () =>{
     <Toaster position="top-right" />
     <div className=' lg:container lg:mx-16 col-span-6'>
     <h2 className='text-white text-2xl text-center pb-4 mb-4  md:text-4xl font-extrabold'>
-     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>let's connect
+     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>let us connect
      </span>
      </h2>
      <p className='mx-9 text-[#ADB7BE]'>
@@ -139,4 +139,4 @@ const contact = () =>{
     );
 }
 
-export default contact
+export default Contact
