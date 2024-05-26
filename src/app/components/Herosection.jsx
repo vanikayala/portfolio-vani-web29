@@ -12,7 +12,7 @@ const Herosection = () => {
        <p className="pb-4 text-[#ADB7BE]" >WELCOME TO MY WORLD</p>  
      <h2 className='text-white text-2xl mb-4  md:text-4xl font-extrabold'>
      <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
-      Hello, I'm {}
+      Hello, I am {}
       </span>
       
       <TypeAnimation
