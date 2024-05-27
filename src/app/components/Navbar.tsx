@@ -17,11 +17,11 @@ const navLinks= [
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className='text-white fixed my-0 mx-0 py-2 px-6 top-0 left-0 right-0 z-10 bg-[#383737] bg-opacity-90'>
+    <nav className='text-white fixed my-0 mx- py-2 px-6 top-0 left-0 right-0 z-10 bg-[#383737] bg-opacity-90'>
        
        <div className='flex flex-wrap items-center active justify-between mx-auto py-4'>
         <Link href={"/"} className='text-white md:text-4xl text-lg font-bold'>
-          Vani-Portfolio
+          Portfolio
         </Link>
         <div className="mobile-menu block md:hidden">
 
@@ -33,7 +33,7 @@ const Navbar = () => {
           )}
         </div>
          <div className='menu hidden md:block md:w-auto' id="navbar">
-          <ul className='flex flex-col p-auto md:flex-row md:p-0  md:space-x-8'>
+          <ul className='flex flex-col p-auto md:flex-row md:p-4  md:space-x-4'>
             {navLinks.map((link, index)=>(
              <li key={index}  >
                 <NavLink href={link.path} title={link.title} />

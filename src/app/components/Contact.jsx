@@ -64,7 +64,7 @@ const Contact = () =>{
        <span className='rounded-full px-9 py-2 block bg-[#4a4949f6] hover:bg-slate-900'>
        <a href="https://www.linkedin.com/in/vani-ka-364159226/"
         target="_blank"
-        > Linked In</a></span>
+        >LinkedIn</a></span>
        </button>
      <button 
          className='text-white rounded-full bg-white bg-gradient-to-br from-yellow-400 via-orange-400 to-orange-600 mt-4 py-2 px-2 w-auto '>
