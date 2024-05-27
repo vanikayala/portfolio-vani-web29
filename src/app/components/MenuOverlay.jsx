@@ -6,7 +6,7 @@ const MenuOverlay = ({ links}) => {
   return (
     <ul className="flex flex-col md:hidden items-end py-4  ">
        {links.map((link, index)=>(
-        <li  key={index} ><NavLink  onClick={()=>{setNavbarOpen(!navbarOpen)}} href={link.path} title={link.title} /></li>
+        <li  key={index} ><NavLink href={link.path} title={link.title} /></li>
        ))} 
          </ul>
   )
