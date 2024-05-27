@@ -64,7 +64,7 @@ const handleTabChange =(id)=>{
   return (
   <>  <section className ="mt-16 py-9 mx-8 mb-9 grid grid-cols-1 md:grid-cols-12">
       <div className='col-span-5 place-self-center md:mt-7 mt-0 lg:mt-7'>
-       <h2 className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'>About Me<span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
+       <h2 className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'>About <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
         Me</span>
        </h2>
       
@@ -125,7 +125,7 @@ const handleTabChange =(id)=>{
               I am excited to work with you to create amazing
             applications.
           </p>
-          <p className=" mx-0 mt-4 text-sm text-white">Mail Me : kayalavani403@gmail.com , Call : 647-641-8264</p>
+          <p className=" mx-0 mt-4 text-sm text-white">Mail Me : kayalavani403@gmail.com , Call : +1 647-641-8264</p>
         </div>
         <div className="mt-9 mx-auto items-center">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white mb-7 sm:grid-cols-4 md:items-center ">

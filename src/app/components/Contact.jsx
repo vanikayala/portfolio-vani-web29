@@ -44,7 +44,7 @@ const Contact = () =>{
     
     <div className=' col-span-6'>
     <h2 className='text-white text-2xl text-center pb-4 mb-4  md:text-4xl font-extrabold'>
-     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>let Us connect
+     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>Let Us Connect
      </span>
      </h2>
      <p className='md:mx-9 text-[#ADB7BE]'>
@@ -76,7 +76,7 @@ const Contact = () =>{
      {/* {toast}  */}
      <form ref={form} onSubmit={sendEmail}>
    
-      <label className='text-md pr-3 '>Name</label>
+      <label className='text-md pr-3 '>Your Name</label>
       <input 
       className="border border-orange-600 rounded-md h-8 mt-2 w-full mb-3 text-slate-700" 
        required type="text" name="user_name" value={user.name}

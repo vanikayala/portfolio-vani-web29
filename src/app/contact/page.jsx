@@ -52,7 +52,7 @@ const Contact = () =>{
     <Toaster position="top-right" />
     <div className=' lg:container lg:mx-16 col-span-6'>
     <h2 className='text-white text-2xl text-center pb-4 mb-4  md:text-4xl font-extrabold'>
-     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>let us connect
+     <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>Let Us Connect
      </span>
      </h2>
      <p className='mx-9 text-[#ADB7BE]'>
@@ -84,7 +84,7 @@ const Contact = () =>{
      
      <form ref={form} onSubmit={sendEmail}>
    
-      <label className='text-md pr-3 '>Name</label>
+      <label className='text-md pr-3 '>Your Name</label>
       <input 
       className="border border-orange-600 rounded-md h-8 mt-2 w-full mb-3 text-slate-700" 
        required type="text" name="user_name" value={user.name}
@@ -120,7 +120,7 @@ const Contact = () =>{
               I am excited to work with you to create amazing
             applications.
           </p>
-          <p className=" mx-0 mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com , Call : 647-641-8264</p>
+           <p className=" mx-0 mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com , Call : +1 647-641-8264</p>
         </div>
         <div className="mt-9 mx-auto items-center">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white mb-7 sm:grid-cols-4 md:items-center ">

@@ -71,7 +71,7 @@ const handleTabChange =(id)=>{
         <div className="ml-4 py-4 col-span-7 text-center md:text-left place-self-center">
          {/* <h2 className='lg:text-4xl font-extrabold text-white'>About <span className='text-orange-400'>Me</span></h2> */}
           <p className='text-[#9fa2a4] mt-4 text-base lg:text-lg'>
-            I am a full stack web developwe with a passion for creating interactive and responsive
+            I am a full stack web developer with a passion for creating interactive and responsive
             web applications. I have experience working with javascript, React, Redux, Node.js, Express,
             PostgreSQL, HTML, CSS, and Git. I am a quick learner and I am always looking to expand
             my knowledge and skill set. I am a team player and I am excited to work with others to create amazing
