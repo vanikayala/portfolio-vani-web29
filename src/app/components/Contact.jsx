@@ -56,7 +56,7 @@ const Contact = () =>{
        <p className="px-0 md:mx-9 mt-4 text-sm mx-auto text-white">Mail Me: kayalavani403@gmail . com</p>
               
 
-       <div>  <p className="sm:mx-9 text-sm mt-2 text-white">Call Me: +1 6476418264 </p></div>
+       <div>  <p className="sm:mx-9 text-sm mt-2 text-white">Call Me: +1 647-641-8264 </p></div>
      <div className='py-6 text-center'>
       <Toaster position='top-right'/>
       <button 

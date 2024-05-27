@@ -22,7 +22,7 @@ export default function Example() {
               I am excited to work with you to create amazing
             applications.
           </p>
-          <p className="  mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com (OR) Call : 6476418264 (CANADA)</p>
+          <p className="  mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com , Call : +1 647-641-8264 </p>
         </div>
         <div className="mt-9 mx-auto items-center">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white mb-7 sm:grid-cols-4 md:items-center ">

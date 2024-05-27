@@ -61,10 +61,10 @@ const Contact = () =>{
      or oppotunities to be part of your vision.
       </p>
      
-       <p className=" mx-9 mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com</p>
+       <p className=" mx-9 mt-4 text-sm text-white">Email: kayalavani403@gmail . com</p>
               
 
-       <div>  <p className="mx-9 text-sm mt-2 text-white">Call Me: +1 6476418264 </p></div>
+          <div>  <p className="mx-9 text-sm mt-2 text-white"> Call Me: +1 647-641-8264 </p></div>
      <div className='py-6 text-center'>
       <button 
        className='text-white rounded-full bg-white bg-gradient-to-br from-yellow-400 via-orange-400 to-orange-600 mr-4 mt-4 w-auto py-2 px-2 '>
@@ -120,7 +120,7 @@ const Contact = () =>{
               I am excited to work with you to create amazing
             applications.
           </p>
-          <p className=" mx-0 mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com (OR) Call : 6476418264 (CANADA)</p>
+          <p className=" mx-0 mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com , Call : 647-641-8264</p>
         </div>
         <div className="mt-9 mx-auto items-center">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white mb-7 sm:grid-cols-4 md:items-center ">

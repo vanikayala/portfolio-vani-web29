@@ -21,7 +21,7 @@ const Navbar = () => {
        
        <div className='flex flex-wrap items-center active justify-between mx-auto py-4'>
         <Link href={"/"} className='text-white md:text-4xl text-lg font-bold'>
-          Portfolio
+          Vani-Portfolio
         </Link>
         <div className="mobile-menu block md:hidden">
 

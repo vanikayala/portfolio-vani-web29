@@ -64,7 +64,7 @@ const handleTabChange =(id)=>{
   return (
   <>  <section className ="mt-16 py-9 mx-8 mb-9 grid grid-cols-1 md:grid-cols-12">
       <div className='col-span-5 place-self-center md:mt-7 mt-0 lg:mt-7'>
-       <h2 className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'>A<span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
+       <h2 className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'>About Me<span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
         Me</span>
        </h2>
       
@@ -83,7 +83,7 @@ const handleTabChange =(id)=>{
         <div className="ml-4 py-4 col-span-7 text-center md:text-left place-self-center">
          {/* <h2 className='lg:text-4xl font-extrabold text-white'>About <span className='text-orange-400'>Me</span></h2> */}
           <p className='text-[#9fa2a4] mt-4 text-base lg:text-lg'>
-            I am a full stack web develooper with a passion for creating interactive and responsive
+            I am a full stack web developer with a passion for creating interactive and responsive
             web applications. I have experience working with javascript, React, Redux, Node.js, Express,
             PostgreSQL, HTML, CSS, and Git. I am a quick learner and I am always looking to expand
             my knowledge and skill set. I am a team player and I am excited to work with others to create amazing
@@ -125,7 +125,7 @@ const handleTabChange =(id)=>{
               I am excited to work with you to create amazing
             applications.
           </p>
-          <p className=" mx-0 mt-4 text-sm text-white">Mail Me : kayalavani403@gmail.com (OR) Call : 6476418264 (CANADA)</p>
+          <p className=" mx-0 mt-4 text-sm text-white">Mail Me : kayalavani403@gmail.com , Call : 647-641-8264</p>
         </div>
         <div className="mt-9 mx-auto items-center">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white mb-7 sm:grid-cols-4 md:items-center ">

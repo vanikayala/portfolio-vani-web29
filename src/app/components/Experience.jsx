@@ -5,7 +5,7 @@ const Experience = () => {
     <section>
       <div className="container mx-auto p-4">
         <h2 className=" text-lg md:text-4xl text-center font-semibold  bg-clip-text text-transparent bg-gradient-to-br from-yellow-200  via-orange-400 to-orange-600">
-          Experience
+           My Experience
         </h2>
         <div className="text-white mt-7 relative before:absolute before:top-0 before:left-0 before:bottom-0 before:bg-white before:w-1">
           <div className="relative md:pl-10 before:w-3 before:h-3 before:bg-gradient-to-br before:from-orange-300 before:to-orange-700 before:rounded-full before:-left-[4px] before:absolute">

@@ -18,7 +18,7 @@ const experience = () => {
     <><section>
       <div className="lg:px-68 sm:px-16 container mt-16 mx-auto py-16">
         <h2 className="text-2xl md:text-4xl text-center font-semibold  bg-clip-text text-transparent bg-gradient-to-br from-yellow-200  via-orange-400 to-orange-600">
-          Experience
+          My Experience
         </h2>
         <div className="text-white mt-8 relative before:absolute before:top-0 before:left-0 before:bottom-0 before:bg-white before:w-1">
           <div className="relative pl-10 before:w-3 before:h-3 before:bg-gradient-to-br before:from-orange-300 before:to-orange-700 before:rounded-full before:-left-[4px] before:absolute">
@@ -61,7 +61,7 @@ const experience = () => {
               I am excited to work with you to create amazing
             applications.
           </p>
-          <p className=" mx-0 mt-4 text-sm text-white">Mail Me : kayalavani403@gmail . com (OR) Call : 6476418264 (CANADA)</p>
+          <p className=" mx-0 mt-4 text-sm text-white">Mail Me : kayalavani403@gmail . com ,Call : 647-641-8264</p>
         </div>
         <div className="mt-9 mx-auto items-center">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white mb-7 sm:grid-cols-4 md:items-center ">
