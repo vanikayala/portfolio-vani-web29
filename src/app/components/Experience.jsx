@@ -1,9 +1,19 @@
 import React from "react";
 
+
+
+import { fadeIn } from "@/variants"
+import {motion} from "framer-motion"
+
+// const containerVariants={
+//   hidden:{opacity: 0,x: '100vw'}, visible: { opacity: 1, x:0,transition:{ type: "spring", delay: 0.5}}
+// }
 const Experience = () => {
   return (
-    <section>
-      <div className="container mx-auto p-4">
+  
+  <section >
+      <div
+          className="container mx-auto p-4">
         <h2 className=" text-lg md:text-4xl text-center font-semibold  bg-clip-text text-transparent bg-gradient-to-br from-yellow-200  via-orange-400 to-orange-600">
            My Experience
         </h2>
@@ -12,7 +22,8 @@ const Experience = () => {
            <h2 className="absolute -left-12">2021</h2>
            
            
-           <p className="ml-3 text-orange-300 font-semibold">RES</p><p className="ml-4 my-4">WNG (Wellman Next Generation) is a Well Life-Cycle Project, Cost, Data application that provides the Well data management solutions to the Global clients
+           <p
+             className="ml-3 text-orange-300 font-semibold">RES</p><p className="ml-4 my-4">WNG (Wellman Next Generation) is a Well Life-Cycle Project, Cost, Data application that provides the Well data management solutions to the Global clients
            
            </p>
            <div className="ml-4 text-[#ADB7BE] PY-4">Environment: React, Nodejs, Redux, express, MongoDB, Enzymes, jest,Js,ES6, TS, HTML5,CSS, AWS</div>

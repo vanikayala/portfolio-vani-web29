@@ -1,10 +1,21 @@
 import React from "react";
 
+import { fadeIn } from "@/variants"
+import {motion} from "framer-motion"
+
 const Technologies = () => {
   return (
     <section>
-      <div className="md:container m-auto md:mt-12 px-0">
-        <h2 className="md:text-3xl text-center text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 via-orange-400 to-orange-800 font-bold">Technologies</h2>
+     
+     
+     {/* <motion.div
+      variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}> */}
+      <div
+       className="md:container m-auto mt-8 md:mt-12 px-0">
+        <h2 className="text-3xl text-center text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 via-orange-400 to-orange-800 font-bold">Technologies</h2>
         <div className="mt-4 md:mt-11">
           <div>
             <div className="text-sm text-[#ADB7BE] w-[50%] mx-auto justify-between flex">
@@ -59,7 +70,8 @@ const Technologies = () => {
         </div>
      
       </div>
-      <div className="container m-auto px-4 py-4">
+      <div
+       className="container m-auto px-4 py-4">
         
         <h2 className="text-center my-4 font-semibold text-lg md:text-2xl text-white">Additional Technologies & Skills</h2>
         
@@ -91,6 +103,7 @@ const Technologies = () => {
        
         </div> 
       </div>
+      {/* </motion.div> */}
     </section>
   );
 };

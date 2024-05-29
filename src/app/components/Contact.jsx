@@ -3,8 +3,14 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 
+import { fadeIn } from "@/variants"
+import {motion} from "framer-motion"
 import toast, {Toaster} from "react-hot-toast"
 
+
+const buttonVariants={ hover: { scale:[1.1,1,1.1,1,1.1,1,1.1],  textShadow: "0px 0px 2px rgb(255,255,255)", boxShadow: "0px 0px 4px rgb(255,255,255)",
+  // transition: {yoyo:Infinity, duration: 0.3}
+}}
 const Contact = () =>{ 
 
   const form =useRef();
@@ -42,16 +48,24 @@ const Contact = () =>{
     
     <section className='grid grid-cols-1 py-7 mt-7  md:grid-cols-12'>
     
-    <div className=' col-span-6'>
-    <h2 className='text-white text-2xl text-center pb-4 mb-4  md:text-4xl font-extrabold'>
+    <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className=' pb-4 col-span-6'>
+    <h2 className='text-white text-2xl text-center pb-4 my-4  md:text-4xl font-extrabold'>
      <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>Let Us Connect
      </span>
      </h2>
-     <p className='md:mx-9 text-[#ADB7BE]'>
+     <motion.p     
+     initial={{opacity:0}}
+     animate={{opacity:1}}
+     transition={{delay:1.0,duration:3.5, stiffness:500}} className='md:mx-9 text-[#ADB7BE]'>
      
      Feel free to get in touch with me. I am always open to discussing  new projects, creative ideas
      or oppotunities to be part of your vision.
-      </p>
+      </motion.p>
      
        <p className="px-0 md:mx-9 mt-4 text-sm mx-auto text-white">Mail Me: kayalavani403@gmail . com</p>
               
@@ -59,20 +73,30 @@ const Contact = () =>{
        <div>  <p className="sm:mx-9 text-sm mt-2 text-white">Call Me: +1 647-641-8264 </p></div>
      <div className='py-6 text-center'>
       <Toaster position='top-right'/>
-      <button 
+      <motion.button 
+       variants={buttonVariants} whileHover="hover"
        className='text-white rounded-full bg-white bg-gradient-to-br from-yellow-400 via-orange-400 to-orange-600 mr-4 mt-4 w-auto py-2 px-2 '>
        <span className='rounded-full px-9 py-2 block bg-[#4a4949f6] hover:bg-slate-900'>
        <a href="https://www.linkedin.com/in/vani-ka-364159226/"
         target="_blank"
         >LinkedIn</a></span>
-       </button>
-     <button 
+       </motion.button>
+     <motion.button 
+         variants={buttonVariants} whileHover="hover"
          className='text-white rounded-full bg-white bg-gradient-to-br from-yellow-400 via-orange-400 to-orange-600 mt-4 py-2 px-2 w-auto '>
         <span className='rounded-full block bg-[#464444fc] px-6 py-2 hover:bg-slate-900'><a href="download/Vani_CV.docx" alt="vani_cv">Download CV</a> </span>
-      </button>
+      </motion.button>
      </div>
-    </div>
-    <div className='col-span-6 text-center mx-auto py-3 text-orange-300 '>
+    </motion.div>
+    <motion.div
+     variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}     
+    //  initial={{opacity:0}}
+    //  animate={{opacity:1}}
+    //  transition={{delay:1.0,duration:4.5, stiffness:500}}
+      className='col-span-6 text-center mx-auto py-3 text-orange-300 '>
      {/* {toast}  */}
      <form ref={form} onSubmit={sendEmail}>
    
@@ -97,7 +121,7 @@ const Contact = () =>{
 {/* {message && (
     <p className='text-orange-400'>Email sent successfully!</p>
 )} */}
-     </div>
+     </motion.div>
    
    </section>
     

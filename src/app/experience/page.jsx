@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 
 const links = [
   { name: 'Contract', href: '#' },
@@ -12,6 +12,8 @@ const stats = [
   { name: 'Hours per week', value: '40' },
   { name: 'Paid time off', value: 'Unlimited' },
 ]
+import { fadeIn } from "@/variants"
+import {motion} from "framer-motion"
 
 const experience = () => {
   return (

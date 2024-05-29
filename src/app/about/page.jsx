@@ -1,6 +1,7 @@
 "use client";
 import  {useTransition, useState} from 'react'
 
+import {motion} from "framer-motion"
 import TabButton from "../components/TabButton"
 import Image from 'next/image';
 const links = [
@@ -82,13 +83,16 @@ const handleTabChange =(id)=>{
     
         <div className="ml-4 py-4 col-span-7 text-center md:text-left place-self-center">
          {/* <h2 className='lg:text-4xl font-extrabold text-white'>About <span className='text-orange-400'>Me</span></h2> */}
-          <p className='text-[#9fa2a4] mt-4 text-base lg:text-lg'>
+          <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.0, duration: 4.5, stiffness: 500 }} className='text-[#9fa2a4] mt-4 text-base lg:text-lg'>
             I am a full stack web developer with a passion for creating interactive and responsive
             web applications. I have experience working with javascript, React, Redux, Node.js, Express,
             PostgreSQL, HTML, CSS, and Git. I am a quick learner and I am always looking to expand
             my knowledge and skill set. I am a team player and I am excited to work with others to create amazing
             applications.
-         </p>
+         </motion.p>
          <div className='text-white flex flex-row mt-8'>
            
          <TabButton 

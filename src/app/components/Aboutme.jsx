@@ -1,6 +1,7 @@
 "use client";
 import React, {useTransition, useState} from 'react'
-
+import { fadeIn } from "@/variants"
+import {motion} from "framer-motion"
 import TabButton from "./TabButton"
 import Image from 'next/image';
 const TAB_DATA= [
@@ -50,15 +51,20 @@ const handleTabChange =(id)=>{
  });
 }  
   return (
-    <section className = " grid grid-cols-1 md:grid-cols-12">
-      <div className='col-span-5 place-self-center md:mt-7 mt-0 lg:mt-7'>
-       <h2 className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'> About <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
+    <section className = " grid grid-cols-1 my-6 md:grid-cols-12">
+      <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className='col-span-5 place-self-center md:mt-7 mt-0 lg:mt-7'>
+       <motion.h2 initial={{x:'-100vw'}} animate={{x:0}} className='md:text-4xl text-white pb-0 text-2xl font-extrabold  text-center md:text-center place-self-center'> About <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-300 via-orange-400 to-orange-600 ">
         Me</span>
-       </h2>
+       </motion.h2>
       
         <div className=' rounded-full md:mt-8 md:w-[270px] md:h-[200px] w-[180px] h-[200px] lg:w-[360px] lg:h-[300px] relative'>
        
-        <Image 
+        <Image  
         src="/images/aboutme.jpg"
         alt="image"
         width={430}
@@ -66,17 +72,25 @@ const handleTabChange =(id)=>{
         className='absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
         />
         </div>
-        </div>
+        </motion.div>
     
-        <div className="ml-4 py-4 col-span-7 text-center md:text-left place-self-center">
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="ml-4 py-4 col-span-7 text-center md:text-left place-self-center">
          {/* <h2 className='lg:text-4xl font-extrabold text-white'>About <span className='text-orange-400'>Me</span></h2> */}
-          <p className='text-[#9fa2a4] mt-4 text-base lg:text-lg'>
+         <motion.p     
+     initial={{opacity:0}}
+     animate={{opacity:1}}
+     transition={{delay:1.0,duration:4.5, stiffness:500}} className='text-[#9fa2a4] mt-4 text-base lg:text-lg'>
             I am a full stack web developer with a passion for creating interactive and responsive
             web applications. I have experience working with javascript, React, Redux, Node.js, Express,
             PostgreSQL, HTML, CSS, and Git. I am a quick learner and I am always looking to expand
             my knowledge and skill set. I am a team player and I am excited to work with others to create amazing
             applications.
-         </p>
+             </motion.p>
          <div className='text-white flex flex-row mt-8'>
            
          <TabButton 
@@ -97,7 +111,7 @@ const handleTabChange =(id)=>{
                      
          </div>
          <div className='text-[#ADB7BE] text-left mt-4'>{TAB_DATA.find((t)=>t.id === tab).content}</div>
-        </div>
+        </motion.div>
         
     </section>
        

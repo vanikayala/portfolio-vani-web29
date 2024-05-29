@@ -10,12 +10,18 @@ const stats = [
   { name: 'Hours per week', value: '40' },
   { name: 'Paid time off', value: 'Unlimited' },
 ]
-
+import { fadeIn } from "@/variants"
+import {motion} from "framer-motion"
 export default function Example() {
   return (
     <div >
       
-      <div className="mx-auto text-center lg:mx-0">
+      <div
+          // variants={fadeIn("up", 0.2)}
+          // initial="hidden"
+          // whileInView={"show"}
+          // viewport={{ once: false, amount: 0.7 }}
+          className="mx-auto text-center lg:mx-0">
         <div className="mx-auto text-center lg:mx-0">
           <h2 className="mt-0 text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-br from-orange-200  via-orange-400 to-orange-800 sm:text-4xl">Work With <span className="text-white">Me</span></h2>
           <p className="mt-6 text-lg leading-8 text-[#ADB7BE]">
