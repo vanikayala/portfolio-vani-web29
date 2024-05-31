@@ -54,7 +54,7 @@ const Contact = () =>{
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
           className=' pb-4 col-span-6'>
-    <h2 className='text-white text-2xl text-center pb-4 my-  md:text-4xl font-extrabold'>
+    <h2 className='text-white text-2xl text-center pb-4 my-   md:text-4xl font-extrabold'>
      <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>Let Us Connect
      </span>
      </h2>
