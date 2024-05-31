@@ -37,15 +37,29 @@ const Navbar = () => {
           <ul className='flex flex-col p-auto md:flex-row md:p-4  md:space-x-4'>
             {navLinks.map((link, index)=>(
              <motion.li
-             whileHover={{ scale: 0.9,originX :0, color:"#f8e112"}}
-             transition={{type:"spring", stiffness:300}} key={index}  >
-                <NavLink href={link.path} title={link.title} />
+              whileHover={{ scale: 0.9,originX :0, color:"#f8e112"}}
+             transition={{type:"spring", stiffness:300}} key={index}
+             className=''  >
+            <NavLink href={link.path} title={link.title} />
           </motion.li>
             ))}
             </ul>  
         </div>
         </div>
-        {navbarOpen ? <MenuOverlay links = {navLinks}/> : null} 
+        {/* {navbarOpen ? <MenuOverlay links={navLinks} /> : null} */}
+        {navbarOpen ? (
+
+         <div>
+          <ul className="flex flex-col md:hidden items-end py-4 ">
+            {navLinks.map((link, index)=>(
+             <motion.li
+              onClick={()=>{setNavbarOpen(!navbarOpen)}} whileHover={{ scale: 0.9,originX :0, color:"#f8e112"}}
+             transition={{type:"spring", stiffness:300}} key={index}  >
+                <NavLink href={link.path} title={link.title} />
+          </motion.li>
+            ))}
+            </ul>  
+        </div>) : null} 
     </nav>
   )
 }
