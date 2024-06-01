@@ -35,7 +35,7 @@ export default function Example() {
               I am excited to work with you to create amazing
             applications.
           </p>
-          <p className="  mt-4 text-sm text-white">Mail Me: kayalavani403@gmail . com , Call : +1 647-641-8264 </p>
+          <p className="  mt-4 text-sm text-white">Mail Me: kayalavani403@gmail.com, Call : +1 647-641-8264 </p>
         </motion>
         <motion
           variants={fadeIn("up", 0.2)}
