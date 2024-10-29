@@ -37,7 +37,7 @@ const Experience = () => {
            <div className="ml-4 text-[#ADB7BE] py-4">Environment: ReactJS, JavaScript, HTML5, ES6 features, Rest API’, SCSS, MongoDB, Material UI, Azure, Jest, Enzymes, AJAX, JSON, Express.js, Node.js, Responsive Web Design (RWD), NPM, jQuery, GIT, GitHub, Agile.
            </div>
           </div>
-          <div className=" relative md:pl-10 before:w-3 before:h-3 before:bg-gradient-to-r before:from-orange-300 before:to-orange-700 before:rounded-full before:-left-[4px] before:absolute">
+          {/* <div className=" relative md:pl-10 before:w-3 before:h-3 before:bg-gradient-to-r before:from-orange-300 before:to-orange-700 before:rounded-full before:-left-[4px] before:absolute">
            <h2 className="absolute -left-12">2017</h2>
             <p className="text-orange-300 ml-3 font-semibold">BMO</p><p className="my-4 ml-4"> Retail Investment Platform (RIP) is a UI application designed for Retail Branch Banking sales advisers. RIP is a sales application that supports account maintenance for PS&I Investment Accounts. RIP will support the maintenance of RSP and TFSA accounts.
            
@@ -45,7 +45,7 @@ const Experience = () => {
           
           <div className="ml-4 text-[#ADB7BE] PY-4">Environment: Java, AJAX, Servlets, JSP, jQuery, JavaScript, Reactjs ,HTML5, Restful, ES5, MUI, CSS3, Junit, IDE - Eclipse, SQL, MYSQL, Windows.</div>
           </div>
-       
+        */}
         </div>
       </div>
     </section>
